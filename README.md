@@ -93,7 +93,7 @@ Alternatively, use [esp.huhn.me](https://esp.huhn.me/) to upload a `.bin` file w
 ## Important  
 - When uploading a custom HTML page, the device automatically edits it to enable password phishing. **Your page must contain an input field and a button.**  
 - If your custom page does not include an input field and button, it will be displayed as is, without the ability to capture user passwords.
-- **use this project for educational purposes only**  
+- **use this project for educational purposes only.**  
 
 ## Thanks To  
 - [M1z23R](https://github.com/M1z23R): For the original project, which this version modifies.

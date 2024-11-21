@@ -88,7 +88,7 @@ Alternatively, use [esp.huhn.me](https://esp.huhn.me/) to upload a `.bin` file w
 - The device can check entered passwords.  
 - The phishing network automatically stops once a good password is captured.
 - You can find more images for this device [here](https://github.com/kizohi00/Esp-netHunter/tree/main/images)
-- If you build this device, I would love to see your creativity. You can post it on Reddit and tag me: 'Fit-Jicama-9376'.
+- If you build this device, I would love to see your creativity. You can post it on Reddit and tag me: `Fit-Jicama-9376`.
 
 ## Important  
 - When uploading a custom HTML page, the device automatically edits it to enable password phishing. **Your page must contain an input field and a button.**  

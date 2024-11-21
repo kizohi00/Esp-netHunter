@@ -82,11 +82,13 @@ Alternatively, use [esp.huhn.me](https://esp.huhn.me/) to upload a `.bin` file w
 ## Notes  
 - The ESP8266 LED indicates that the deauthentication attack is active.  
 - To upload a custom phishing page:  
-  1. Select the **right option** and connect to the `server AP` network using the password `kizohi00`.  
+  1. On the page select screen. Select the **right option** and connect to the `server AP` network using the password `kizohi00`.  
   2. Open a browser and navigate to `192.168.4.1`.  
   3. Upload your custom page.  
-- The device captures entered passwords.  
-- The phishing network automatically stops once a password is captured.  
+- The device can check entered passwords.  
+- The phishing network automatically stops once a good password is captured.
+- You can find more images for this device [here](https://github.com/kizohi00/Esp-netHunter/tree/main/images)
+- If you build this device, I would love to see your creativity. You can post it on Reddit and tag me: 'Fit-Jicama-9376'.
 
 ## Important  
 - When uploading a custom HTML page, the device automatically edits it to enable password phishing. **Your page must contain an input field and a button.**  

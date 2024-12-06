@@ -576,9 +576,9 @@ void setup() {
   pinMode(buttonSelect, INPUT_PULLUP);
   pinMode(buttonLeft, INPUT_PULLUP);
   pinMode(buttonRight, INPUT_PULLUP);
-  if (!display.begin(0x3C)) {
-    Serial.println("SH1106 not found!");
-    while (true);
+     if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) { 
+    Serial.println(F("SSD1306 allocation failed"));
+    for(;;); 
   }
 
   

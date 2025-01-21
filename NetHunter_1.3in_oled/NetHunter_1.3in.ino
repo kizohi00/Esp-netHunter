@@ -749,6 +749,7 @@ const int buttonRight = 0;
           isFileUpload = true;
         }else{
           pageSelected = true;
+          delay(250);
         }
         IPAddress IP = WiFi.softAPIP();
         createAP();
